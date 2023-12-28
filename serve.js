@@ -1,3 +1,5 @@
+const http = require('http')
+const PORT = process.env.PORT || 9000
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,3 +46,5 @@
 
 </body>
 </html>
+
+.listen(PORT, () => console.log('Listening on', PORT))
